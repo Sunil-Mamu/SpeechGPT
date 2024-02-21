@@ -1,7 +1,10 @@
-# Vue 3 + Vite
+# SpeechChatGPT
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+SpeechChatGPT is a project that allows users to interact with OpenAI's GPT-3.5 Turbo model using voice commands. Users can speak to the application, and it will convert the speech to text, send the text to the GPT-3.5 Turbo model for processing, and then convert the model's response back to speech.
 
-## Recommended IDE Setup
+## Features
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+- **Voice-to-Text Conversion:** Convert user's spoken words to text.
+- **Text-to-Text Interaction:** Utilize OpenAI's GPT-3.5 Turbo for natural language understanding and generation.
+- **Text-to-Speech Conversion:** Convert the model's response back to speech for user feedback.
+
