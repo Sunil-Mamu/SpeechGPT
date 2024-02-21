@@ -1,0 +1,22 @@
+{
+  "name": "hey-chatgpt",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@aws-sdk/client-polly": "^3.515.0",
+    "@aws-sdk/client-s3": "^3.515.0",
+    "axios": "^1.6.7",
+    "vue": "^3.4.15",
+    "vue-audio-visual": "^3.0.7"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.3",
+    "vite": "^5.1.0"
+  }
+}
